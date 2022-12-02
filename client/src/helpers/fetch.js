@@ -1,4 +1,4 @@
-const baseUrl = `https://barber-app-henry.herokuapp.com/api`;
+const baseUrl = `https://barberapp.tk/api`;
 
 //ESTE SIRVE DE ALGO???????????
 export const fetchSinToken = (endpoint, data, method = "GET") => {

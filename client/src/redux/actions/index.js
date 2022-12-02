@@ -353,7 +353,7 @@ export const paymentMP = async (items, user, navigate, emptyCart) => {
 
   const token = localStorage.getItem("token");
   const response = await fetch(
-    "https://barber-app-henry.herokuapp.com/api/purchaseOrder",
+    "https://barberapp.tk/api/purchaseOrder",
     {
       method: "POST",
       body: JSON.stringify(carrito),

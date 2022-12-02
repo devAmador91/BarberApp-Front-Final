@@ -26,7 +26,7 @@ const ResetPassword = () => {
         try {   
                              //await fetch(`http://localhost:3001/api/resetPassword/confirmation`
                              //Ruta del deploy->>>
-            const response = await fetch("https://barber-app-henry.herokuapp.com/api/resetPassword/confirmation",
+            const response = await fetch("http://18.222.221.138:3001/api/resetPassword/confirmation",
             {
             method: "POST",
             body: JSON.stringify(data),
