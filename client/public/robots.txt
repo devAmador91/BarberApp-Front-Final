@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+https://barber-app-alpha.vercel.app/sitemap.xml
